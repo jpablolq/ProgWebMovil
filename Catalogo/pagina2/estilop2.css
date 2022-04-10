@@ -1,0 +1,149 @@
+body
+{
+    background-image: url(/imagenes/Fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgg
+{
+position: absolute;
+width: 196px;
+height: 201px;
+left: 90px;
+top: 0px;
+}
+.guitarra
+{
+position: absolute;
+width: 392px;
+height: 450px;
+left: 136px;
+top: 31px;
+border-radius: 30px;
+    
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.textgui
+{
+position: absolute;
+width: 324px;
+height: 198px;
+left: 40px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.imgv
+{
+position: absolute;
+width: 191px;
+height: 163px;
+left: 90px;
+top: 0px;
+}
+.voz
+{
+position: absolute;
+width: 392px;
+height: 450px;
+left: 942px;
+top: 31px;
+border-radius: 30px;
+
+background: rgba(255, 255, 255, 0.8);
+}
+.textvoz
+{
+
+    position: absolute;
+    width: 312px;
+    height: 250px;
+    left: 50px;
+    top: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+}
+.imgb
+{
+position: absolute;
+width: 196px;
+height: 177px;
+left: 90px;
+top: 0px;
+}
+.bateria
+{
+position: absolute;
+width: 392px;
+height: 450px;
+left: 136px;
+top: 572px;
+border-radius: 30px;
+
+background: rgba(255, 255, 255, 0.8);
+}
+.textbat
+{
+position: absolute;
+width: 356px;
+height: 226px;
+left: 30px;
+top: 170px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.imgp
+{
+position: absolute;
+width: 177px;
+height: 159px;
+left: 100px;
+top: 0px;
+}
+.piano
+{
+position: absolute;
+width: 392px;
+height: 450px;;
+left: 945px;
+top: 570px;
+border-radius: 30px;
+
+background: rgba(255, 255, 255, 0.8);
+}
+.textpiano
+{
+    position: absolute;
+    width: 312px;
+    height: 284px;
+    left: 30px;
+    top: 170px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+

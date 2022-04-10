@@ -1,0 +1,99 @@
+body
+{
+ background-color:#eddf92;
+}
+
+
+.base{
+    position: absolute;
+
+    left: 800px;
+    top: 36px;
+
+}
+
+
+.sopa {
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    
+  
+}
+.sistema
+{
+    background-color: #FF6666;
+}
+
+.movil
+{
+    background-color: #FF6666;
+}
+.html
+{
+    background-color: #2EC4B6;
+}
+.puerto
+{
+   background-color: #FF6666; 
+}
+.emmet
+{
+    background-color: #2EC4B6;
+}
+.online
+{
+    background-color: #CCFF66;
+}
+.estilo
+{
+    background-color: #5D2E8C;
+}
+.etiqueta
+{
+    background-color: #CCFF66;
+}
+.figma
+{
+    background-color: #5D2E8C;
+}
+.clase
+{
+    background-color: #5D2E8C;
+}
+.pixel
+{
+    background-color: #CCFF66;
+}
+.footer
+{
+    background-color: #5D2E8C;
+}
+.header
+{
+    background-color: #2EC4B6;
+}
+.contenido
+{
+    background-color: #5D2E8C;
+}
+.folder
+{
+    background-color: #CCFF66;
+}
+.git
+{
+    background-color: #CCFF66;
+}
+.texto
+{
+    background-color: #FF6666;
+}
+.prettier
+{
+    background-color: #CCFF66;
+}
+.index
+{
+    background-color: #2EC4B6;
+}

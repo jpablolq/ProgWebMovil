@@ -1,0 +1,116 @@
+body
+{
+background: url(/Imagenes/peshkov190200709.jpg);
+background-size: 150%;
+background-repeat: no-repeat;
+}
+.titulo
+{
+    position: absolute;
+    width: 143px;
+    height: 38px;
+    left: 649px;
+    top: 50px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+
+}
+.definicion
+{
+    position: absolute;
+    width: 440px;
+    height: 246px;
+    left: 49px;
+    top: 110px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.funcion
+{
+position: absolute;
+width: 434px;
+height: 181px;
+left: 536px;
+top: 90px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.estructura
+{
+position: absolute;
+width: 370px;
+height: 264px;
+left: 1028px;
+top: 117px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.nodom
+{
+position: absolute;
+width: 373px;
+height: 317px;
+left: 22px;
+top: 383px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.origen
+{
+position: absolute;
+width: 418px;
+height: 264px;
+left: 49px;
+top: 717px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.entidad
+{
+    position: absolute;
+width: 434px;
+height: 275px;
+left: 536px;
+top: 725px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.arquitectura
+{
+position: absolute;
+width: 352px;
+height: 217px;
+left: 1037px;
+top: 411px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 30px;
+}
+.aplicaciones
+{
+    position: absolute;
+    width: 352px;
+    height: 265px;
+    left: 1037px;
+    top: 716px;
+    
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+.img
+{
+    position: absolute;
+width: 425px;
+height: 300px;
+left: 526px;
+top: 369px;
+
+border-radius: 30px;
+}
