@@ -1,0 +1,61 @@
+body
+{
+background-image: url(imagenes/Fondo2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.fondot1
+{
+position: absolute;
+width: 781px;
+height: 121px;
+left: 25%;
+
+background: rgba(255, 255, 255, 0.8);
+}
+.t1{
+    position: absolute;
+    top: -50%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    
+    color: #000000;
+    
+}
+.fondotxt1
+{
+position: absolute;
+width: 411px;
+height: 500px;
+left: 43px;
+top: 200px;
+
+background: rgba(255, 255, 255, 0.8);
+}
+
+.fondotxt2
+{
+    
+position: absolute;
+width: 411px;
+height: 500px;
+left: 520px;
+top: 200px;
+
+background: rgba(255, 255, 255, 0.8);
+}
+
+.fondotxt3
+{
+    position: absolute;
+    width: 411px;
+    height: 500px;
+    left: 997px;
+    top: 200px;
+    
+    background: rgba(255, 255, 255, 0.8);
+}

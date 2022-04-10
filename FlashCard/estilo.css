@@ -1,0 +1,779 @@
+body {
+  background-color: #000;
+}
+
+
+section .flashcards div .contenedor {
+  overflow: hidden;
+  display: inline-block;
+}
+
+div .contenedor-flashcards {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+h3 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.flip-card1 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 3px;
+  top: 10px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front1,
+.flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front1 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back1 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card2 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 3px;
+  top: 0;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front2,
+.flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back2 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card3 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front3,
+.flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front3 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back3 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card4 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card4:hover .flip-card-inner4 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front4,
+.flip-card-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front4 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back4 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card5 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card5:hover .flip-card-inner5 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front5,
+.flip-card-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front5 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back5 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card6 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card6:hover .flip-card-inner6 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front6,
+.flip-card-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front6 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back6 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card7 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card7:hover .flip-card-inner7 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front7,
+.flip-card-back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front7 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back7 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card8 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card8:hover .flip-card-inner8 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front8,
+.flip-card-back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front8 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back8 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card9 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card9:hover .flip-card-inner9 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front9,
+.flip-card-back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front9 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back9 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card10 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card10:hover .flip-card-inner10 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front10,
+.flip-card-back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front10 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back10 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card11 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner11 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card11:hover .flip-card-inner11 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front11,
+.flip-card-back11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front11 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back11 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card12 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner12 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card12:hover .flip-card-inner12 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card12-front,
+.flip-card-back12 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front12 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back12 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card13 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner13 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 420px;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card13:hover .flip-card-inner13 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front13,
+.flip-card-back13 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front13 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back13 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card14 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner14 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 420px;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card14:hover .flip-card-inner14 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front14,
+.flip-card-back14 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front14 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back14 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card15 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner15 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 420px;
+
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card15:hover .flip-card-inner15 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front15,
+.flip-card-back15 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front15 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back15 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card16 {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+
+.flip-card-inner16 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 420px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card16:hover .flip-card-inner16 {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front16,
+.flip-card-back16 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front16 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back16 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
