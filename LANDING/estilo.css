@@ -1,0 +1,142 @@
+body
+{
+background-color: #2f4f4f;
+} 
+.t1
+{
+display: flex;
+flex: wrap;
+position: absolute;
+width: 40%;
+max-width: 1000px;
+
+left: 10%;
+top: 0px;
+
+font-family: 'Josefin Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+
+color: #000000;
+
+}
+.reg
+{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    width: 134px;
+    height: 28px;
+    left: 1113px;
+    top: 33px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 40%;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+.log
+{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    width: 90px;
+    height: 18px;
+    left: 1272px;
+    top: 33px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;   
+}
+.titulo1
+{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    width: 50%;
+    max-width: 1000px;
+    left: 2%;
+    top: 10%;
+
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 1100;
+font-size: 85px;
+line-height: 100px;
+
+color: #9e8611;
+}
+.titulo2
+{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    width: 50%;
+    max-width: 1000px;
+    left: 2%;
+    top: 60%;
+    
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    
+    color: #000000;
+}
+
+
+.menu
+{
+        list-style: none;
+        padding: 0;
+        background: #fafafa;
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+    
+    .menu li {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+    }
+    
+    .menu li a:hover{
+        background: #ef8354;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        width: 100%;
+    }
+}
+.imgg
+{
+display: flex;
+flex: wrap;
+}
+.imggg
+{
+    position: absolute;
+left: 50%;
+top: 25%;
+    width: 90%;
+    max-width: 700px
+}
